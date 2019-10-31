@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Technical Assessment Flatten object 1`] = `
+Object {
+  "account": "web",
+  "age": 33,
+  "cats": null,
+  "dogs": Array [
+    "spot",
+    "george",
+  ],
+  "loggedIn": false,
+  "name": "sam",
+  "status": "ok",
+}
+`;
+
+exports[`Technical Assessment Normalise types 1`] = `
+Array [
+  Object {
+    "favouriteAnimalId": 3,
+    "id": 1,
+    "name": "Todd",
+    "status": "INACTIVE",
+    "token": "CVjJZnYJzqpBynnUvKPTh8wi",
+  },
+  Object {
+    "favouriteAnimalId": 1,
+    "id": 2,
+    "name": "Mary",
+    "status": "ACTIVE",
+    "token": "cNCDkgUrH3jwiWymFhmjBnPy",
+  },
+  Object {
+    "favouriteAnimalId": 2,
+    "id": 3,
+    "name": "John",
+    "status": "INACTIVE",
+    "token": "Boypqgrey9uDVbLURNzvtkwG",
+  },
+  Object {
+    "favouriteAnimalId": null,
+    "id": 4,
+    "name": "Paul",
+    "status": "ACTIVE",
+    "token": "ZgGceHwANPqKrGyMKMzHE4im",
+  },
+  Object {
+    "favouriteAnimalId": 3,
+    "id": 5,
+    "name": "Max",
+    "status": "INACTIVE",
+    "token": "boqRPFRGMstzRnrozEN4VRGH",
+  },
+]
+`;
+
+exports[`Technical Assessment Omit properties 1`] = `
+Array [
+  Object {
+    "name": "Todd",
+    "status": "DISABLED",
+  },
+  Object {
+    "name": "Mary",
+    "status": "ACTIVE",
+  },
+  Object {
+    "name": "John",
+    "status": "INACTIVE",
+  },
+  Object {
+    "name": "Paul",
+    "status": "ACTIVE",
+  },
+  Object {
+    "name": "Max",
+    "status": "PENDING",
+  },
+]
+`;

@@ -1,0 +1,22 @@
+{
+  "name": "assessment-js",
+  "version": "1.0.2",
+  "license": "MIT",
+  "engines": {
+    "node": "^8.11.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test/watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
