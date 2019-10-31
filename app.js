@@ -36,13 +36,7 @@ export const omitProperties = (dataSet, propertiesToRemove) => {
  * the properties of the object `config` received.
  */
 export const config  = (dataset) => {
-    let result = {}
-    if (!Object.keys(dataset).every(elem => Object.keys(result).indexOf(elem) > -1)) {
-        result = config(Object.assign(result, dataset));
-        return result
-    }
-
-    return result;
+    return (dataset2) => Object.assign(dataset, dataset2)
 };
 
 /**
